@@ -10,7 +10,7 @@ export default defineConfig({
       $styles: path.join(__dirname, 'src/styles/index.css'),
       $types: path.join(__dirname, 'src/types/index.ts'),
       $context: path.join(__dirname, 'src/context'),
-      $components: path.join(__dirname, 'src/components'),
-    },
-  },
+      $components: path.join(__dirname, 'src/components')
+    }
+  }
 });

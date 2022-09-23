@@ -14,7 +14,7 @@ export default function Header() {
         <Anchor
           icon={faGithub}
           target={{
-            href: 'https://github.com/Fractal-Tess/React',
+            href: 'https://github.com/Fractal-Tess/v-bd',
             openInNewTab: true
           }}
           classes={{ iconClass: 'h-6', anchorClass: 'hover:text-primary' }}
