@@ -7,8 +7,8 @@ export default function Fireworks({ count }: Props) {
     <>
       {Array(count)
         .fill(0)
-        .map(_ => (
-          <div className="firework"></div>
+        .map((_, i) => (
+          <div key={i} className="firework"></div>
         ))}
     </>
   );

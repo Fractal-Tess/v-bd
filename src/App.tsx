@@ -3,6 +3,7 @@ import Main from '$components/core/Main';
 import Theme from '$components/theme/Theme';
 
 import Fireworks from '$components/fireworks/Fireworks';
+import CaptureTheFlag from '$components/CaptureTheFlag';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Fireworks count={10} />
         <Header />
         <Main />
+        <CaptureTheFlag />
       </div>
     </Theme>
   );
