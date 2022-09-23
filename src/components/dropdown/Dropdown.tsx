@@ -50,7 +50,7 @@ export default function Dropdown({ flagN, text, answer, hints }: Flag) {
                 onChange={e => {
                   setInput(e.target.value);
                 }}
-                value={isAnswered ? answer : ''}
+                value={input}
                 type="text"
                 className="input input-bordered input-md"
               />
